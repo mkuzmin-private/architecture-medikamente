@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="27.1.1">
+  <diagram name="Page-1" id="6e3-MFx3ksrpRcyFT6c1">
+    <mxGraphModel dx="1179" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-1" value="Gane/Sarson notation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-2" value="Пациент" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-3" value="1.0" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="240" y="119" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-4" value="Оплата услуги" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="xkPFicwHD4jIBPhdCpkP-3" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-5" value="Кассир" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="460" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-2" target="xkPFicwHD4jIBPhdCpkP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-3" target="xkPFicwHD4jIBPhdCpkP-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-8" value="2.0" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="450" y="260" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-9" value="Обработка платежа" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="xkPFicwHD4jIBPhdCpkP-8" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-5" target="xkPFicwHD4jIBPhdCpkP-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-11" value="КММ" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="670" y="261" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-8" target="xkPFicwHD4jIBPhdCpkP-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-13" value="3.0" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="660" y="390" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-14" value="Сохранение инф-ии о платежах&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="xkPFicwHD4jIBPhdCpkP-13" vertex="1">
+          <mxGeometry y="26" width="140" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-11" target="xkPFicwHD4jIBPhdCpkP-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-16" value="1С бухгалтерия" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="1" vertex="1">
+          <mxGeometry x="647.5" y="530" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-13" target="xkPFicwHD4jIBPhdCpkP-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-18" value="4.0" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="380" y="478" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-19" value="Обработка платежей" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="xkPFicwHD4jIBPhdCpkP-18" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-20" value="5.0" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="380" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-21" value="Обработка зарплат и налогов" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="xkPFicwHD4jIBPhdCpkP-20" vertex="1">
+          <mxGeometry y="26" width="140" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-22" value="Бухгалтер" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="535" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-22" target="xkPFicwHD4jIBPhdCpkP-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="560" />
+              <mxPoint x="350" y="504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-22" target="xkPFicwHD4jIBPhdCpkP-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="560" />
+              <mxPoint x="350" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-18" target="xkPFicwHD4jIBPhdCpkP-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkPFicwHD4jIBPhdCpkP-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="xkPFicwHD4jIBPhdCpkP-20" target="xkPFicwHD4jIBPhdCpkP-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="olMF1Mnr876A7yCaBIv--1" value="Кассир не имеет доступа к перс данным пользователя.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="261" width="250" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="olMF1Mnr876A7yCaBIv--2" value="Данные по платежам необходимо шифровать" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="530" width="250" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="olMF1Mnr876A7yCaBIv--3" value="Бухгалтер не имеет доступа к перс данным пользователей. Обрабатывает только платежи и договоры." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="535" width="250" height="51" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
